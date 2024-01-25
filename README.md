@@ -16,6 +16,7 @@ Spesifikasi Sistem Kursus
 5. Riwayat Transaksi
 
 Struktur Sistem Kursus
+Scanner Input
 1. Peserta ==> Record -> Array -> Priorty Queue Comparator
 2. Pelajaran ==> Record -> Array
 3. Jadwal ==> Record -> Array

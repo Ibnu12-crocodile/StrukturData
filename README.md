@@ -29,15 +29,16 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 3. UI/UX Design<br>
 4. Data Analyst</p>
 
+
 ## Komponen Proyek
 <p>Lorem ipsum sir dolor amet.</p>
 
 ## Pembagian Tim
-<p>Rachel Simanjuntak = Array Record => Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
-<p>Luthfi Febrian = Stack => Kupon<br>
-                  = Priorty Queue => Peserta<br>
-                  = Linked list => Peserta data</p>
-<p>Ibnu Rasyid Assidiq = Kuponstack -> Pop<br>
+<p><b>Rachel Simanjuntak</b> = Array Record => Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
+<p><b>Luthfi Febrian</b> = Stack => Kupon<br>
+                   = Priorty Queue => Peserta<br>
+                   = Linked list => Peserta data</p>
+<p><b>Ibnu Rasyid Assidiq</b> = Kuponstack -> Pop<br>
                     = Transaksi<br>
                     = Linked List => Riwayat Transaksi</p>
 

@@ -1,29 +1,47 @@
-#Final Proyek Struktur Data
-*Mata Kuliah: Struktur Data
-Dosen Pengampu: Muhammad Ikhwan Fathulloh
-Kelompok 1/223 PA Tugas Besar Struktur Data
+# Final Proyek Struktur Data
+<ul>
+  <li>Mata Kuliah: Struktur Data</li>
+  <li>Dosen Pengampu: <a href="https://github.com/Muhammad-Ikhwan-Fathulloh">Muhammad Ikhwan Fathulloh</a></li>
+</ul>
 
-Nama Anggota kelompok
-1. Ibnu Rasyid Assidiq 23552011028
-2. Rachel Simanjuntak  23552011035
-3. Luthfi Febrian      23552011363
+last month
 
-Tema tugas: Sistem Kursus
+Update Readme.md
+## Kelompok
+last month
 
-Spesifikasi Sistem Kursus
-1. Peserta
-2. Pelajaran
-3. Jadwal
-4. Transaksi
-5. Riwayat Transaksi
+update commit
+<ul>
+  <li>Kelompok: {kelompok}</li>
+  <li>Proyek: {proyek}</li>
+  <li>Anggota:</li>
+  <ul>
+    <li>Ketua: <a href="">Ketua</a></li>
+    <li>Anggota 1: <a href="">Anggota 1</a></li>
+    <li>Anggota 2: <a href="">Anggota 2</a></li>
+  </ul>
+</ul>
+last month
 
-Struktur Sistem Kursus
+Update Readme.md
 
-Scanner Input
-1. Peserta ==> Record -> Array -> Priorty Queue Comparator
-2. Pelajaran ==> Record -> Array
-3. Jadwal ==> Record -> Array
-4. Kupon ==> Record -> Array -> Stack
-5. Transaksi ==> Linked list
-6. Riwayat Transaksi ==> Linked list
+last month
 
+update commit
+## Judul Proyek
+<p>Lorem ipsum sir dolor amet.</p>
+
+## Penjelasan Proyek
+<p>Lorem ipsum sir dolor amet.</p>
+
+## Komponen Proyek
+<p>Lorem ipsum sir dolor amet.</p>
+
+## Pembagian Tim
+<p>Lorem ipsum sir dolor amet.</p>
+
+## Demo Proyek
+<ul>
+  <li>Github: <a href="">Github</a></li>
+  <li>Youtube: <a href="">Youtube</a></li>
+</ul>

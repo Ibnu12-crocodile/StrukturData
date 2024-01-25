@@ -65,7 +65,8 @@ public class KURSUS2 {
         };
 
         kursus[] listkursus = {
-            new kursus("Tata Boga", "Uncle Muthu", 10),
+            new kursus("Data Analyst
+                       ", "Uncle Muthu", 10),
             new kursus("Hacker", "Bjorka", 18),
             new kursus("UI/UX", "Messi", 17),
             new kursus("Web developer", "Sule", 17)

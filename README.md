@@ -1,9 +1,10 @@
 # StrukturData
 Kelompok 1/223 PA Tugas Besar Struktur Data
+
 Nama Anggota kelompok
 1. Ibnu Rasyid Assidiq 23552011028
-2. Rachel Simanjuntak  23552011
-3. Luthfi Febrian      23552011
+2. Rachel Simanjuntak  23552011035
+3. Luthfi Febrian      23552011363
 
 Tema tugas: Sistem Kursus
 

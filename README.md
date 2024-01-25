@@ -1,4 +1,6 @@
-# StrukturData
+#Final Proyek Struktur Data
+*Mata Kuliah: Struktur Data
+Dosen Pengampu: Muhammad Ikhwan Fathulloh
 Kelompok 1/223 PA Tugas Besar Struktur Data
 
 Nama Anggota kelompok

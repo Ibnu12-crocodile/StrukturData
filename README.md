@@ -30,7 +30,7 @@ yang berkaitan dengan teknologi atau dunia computer di BOOTCAMP IT ini kami meny
 
 ## Pembagian Tim
 <p>Rachel Simanjuntak = Array Record = Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
-<p>Luthfi Febrian = Stack = Kupon 
+<p>Luthfi Febrian = Stack = Kupon<r>
                = Priorty Queue = Peserta
                = Linked list = Peserta data</p>
 <p>Ibnu Rasyid Assidiq = Kuponstack -> Pop

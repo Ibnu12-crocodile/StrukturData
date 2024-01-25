@@ -22,8 +22,12 @@
 
 ## Penjelasan Proyek
 <p>
-Sistem kursus yang kami buat diberi nama BOOTCAMP IT yang dimana bootcamp ini berisi pelajaran pelajaran
-yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyedeiakan pelajaran, jadwal, paket harga dan kupon. </p>
+Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
+yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :<br>
+1. Hacker<br>
+2. Web Developer<br>
+3. UI/UX Design<br>
+4. Data Analyst</p>
 
 ## Komponen Proyek
 <p>Lorem ipsum sir dolor amet.</p>
@@ -31,11 +35,11 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 ## Pembagian Tim
 <p>Rachel Simanjuntak = Array Record => Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
 <p>Luthfi Febrian = Stack => Kupon<br>
-               = Priorty Queue => Peserta<br>
-               = Linked list => Peserta data</p>
-<p>Ibnu Rasyid Assidiq = Kuponstack -> Pop
-                    = Transaksi
-                    = Linked List -> Riwayat Transaksi</p>
+                  = Priorty Queue => Peserta<br>
+                  = Linked list => Peserta data</p>
+<p>Ibnu Rasyid Assidiq = Kuponstack -> Pop<br>
+                    = Transaksi<br>
+                    = Linked List => Riwayat Transaksi</p>
 
 ## Demo Proyek
 <ul>

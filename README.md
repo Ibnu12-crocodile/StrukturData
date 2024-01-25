@@ -29,11 +29,11 @@ yang berkaitan dengan teknologi atau dunia computer di BOOTCAMP IT ini kami meny
 <p>Lorem ipsum sir dolor amet.</p>
 
 ## Pembagian Tim
-<p>Rachel Simanjuntak = Array Record = Peserta, Jadwal, Pelajaran, Kupon , Paket 
-Luthfi Febrian = Stack = Kupon 
+<p>Rachel Simanjuntak = Array Record = Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
+<p>Luthfi Febrian = Stack = Kupon 
                = Priorty Queue = Peserta
-               = Linked list = Peserta data
-Ibnu Rasyid Assidiq = Kuponstack -> Pop
+               = Linked list = Peserta data</p>
+<p>Ibnu Rasyid Assidiq = Kuponstack -> Pop
                     = Transaksi
                     = Linked List -> Riwayat Transaksi</p>
 

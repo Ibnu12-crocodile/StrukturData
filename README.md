@@ -30,22 +30,38 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 3. UI/UX Design<br>
 4. Data Analyst<br>
 <br>
-Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
+  Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
+<br>
 1. Opsi 1 = Hari Kamis, Sesi Pagi, Jam 07.30 - 09.00<br>
 2. Opsi 2 = Hari Kamis, Sesi Malam, Jam 19.30 - 21.00<br>
 3. Opsi 3 = Hari Minggu, Sesi Pagi, Jam 07.30 - 09.00<br>
 4. Opsi 4 = Hari Minggu, Sesi Malam, Jam 19.30 - 21.00<br>
 <br>
-Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
+  Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
+<br>
 1. Kategori A = Masa 1 bulan, Harga 100.000<br>
 2. Kategori B = Masa 3 bulan, Harga 300.000<br>
 3. Kategori C = Masa 7 bulan, Harga 600.000<br>
 4. Kategori D = Masa 1 tahun, Harga 900.000<br>
 <br>
-Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 3 kupon, kupon ini bisa peserta gunakan ketika peserta memasukan kode kupon dalam pendataan peserta, dan peserta bisa mendapatkan kode kupon 
+  Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 3 kupon, kupon ini bisa peserta gunakan ketika peserta memasukan kode kupon dalam pendataan peserta, dan berikut adalah kupon yang kami sediakan<br>
 <br>
+Kupon Garuda = Kode(098), potongan harga (75000)<br>
+Kupon Merpati = Kode(123), potongan harga (50000)<br>
+Kupon Ayam = Kode(345), potongan harga (25000)<br>
+<br>
+    Untuk peserta kita sudah data terlebih dahulu sebanyak 6 peserta yang berdasarkan nama, asal, status, nomor telepon, dan gelombang. Peserta yang sudah kami data nantinya akan kami lakukan pendataan selanjutnya untuk pemilihan kursus berdasarkan urutan yang diambil dari gelombang pendaftaran peserta<br>
+<br>
+  Selanjutnya masuk ke program pendataan untuk menentukan pelajaran kursus, jadwal kursus, paket kursus, pemakaian kupon, dan transaksi.<br>
+Pendataan akan dimulai berdasarkan gelombang, jadi peserta yang mendaftar di gelombang pertama maka ia memiliki hak terlebih dahulu untuk pendataan kursus, setelah peserta memasukan pelajaran, jadwal, dan paket kursus maka peserta akan ditawarkan untuk menggunakan kupon, jika peserta ingin menggunakan kupon maka peserta harus memasukan kode kupon peserta yang didapat dari BOOTCAMP dan jika peserta tidak menggunakan kupon maka peserta tidak akan mendapatkan potongan harga dan lanjut ke pembayaran.
 </p>
-
+<p>
+  Disini kita akan membahas sistem kupon di <b>BOOTCAMP IT</b>, ketika peserta menerima penawaran untuk menggunakan kupon maka peserta harus memasukan kode kupon  yang dimiliki, jika peserta sudah memasukan kode kupon maka kode kupon yang dimasukan dalam pendataan akan dicari atau disamakan dengan kode kupon yang tersimpan dalam kumpulan kupon, jika kode kupon yang dimasukan peserta sama dengan kode kupon yang tersimpan dalam kumpulan kupon maka kupon yang ada dalam kumpulan kupon akan ditampilkan dengan kode kupon, nama kupon, dan potongan harga yang didapat setelah itu maka secara otomatis harga paket yang sudah dipilih oleh peserta akan dikurang dengan potongan harga yang didapatkan oleh peserta pada kuponnya.<br>
+  Akan tetapi jika saat kode kupon yang dimasukan salah dan tidak sama dengan kode kupon yang tersimpan dalam kumpulan kupon maka peserta tidak akan mendapatkan diskon dan melanjutkan ke transaksi, dan apabila kode kupon yang dimasukan terdahului oleh peserta sebelumnya maka kupon pun tidak bisa didapatkan dan akan langsung menuju proses transaksi jadi satu kupon yang kami sediakan hanya berlaku untuk satu peserta.
+</p>
+<p>
+  Jikalau peserta telah melewati program kupon maka peserta akan ditampilkan harga paket akhir baik itu yang telah mendapatkan diskon dari kupon maupun yang tidak menggunakan kupon, disini peserta akan dimintai bayaran untuk tagihan paket yang dipilih, jika bayaran yang dimasukan peserta lebih dari sama dengan tagihan paket maka keterangan pendataan peserta akan dicetak langsung ke dalam riwayat, sedangkan jika bayaran yang dimasukan kurang maka akan ada pemberitahuan jika pembayaran kurang dan akan ditawarkan juga kepada peserta untuk melakukan pembayaran kembali, jika peserta ingin melakukan pembayaran kembali maka peserta akan lanjut ke transaksi akan tetapi jika peserta tidak melanjutkan pembayaran maka pendataan akan dilanjutkan ke antrian peserta berikutnya. Dan untuk riwayanya kami menapilkan nama pelajaran, jadwal pelajaran, harga akhir paket, jumlah pembayaran, dan kembalian peserta.
+</p>
 
 
 ## Komponen Proyek

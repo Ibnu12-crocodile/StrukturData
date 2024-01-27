@@ -97,9 +97,7 @@ public class KURSUS5 {
 
         PriorityQueue<peserta> Antrianpeserta = new PriorityQueue<>(Comparator.comparingInt(peserta::Gelombang));
         
-        for (peserta listpeserta1 : listpeserta) {
-            Antrianpeserta.add(listpeserta1);
-        }
+       
         boolean ulangmenu = true;
         do{
         
@@ -111,7 +109,6 @@ public class KURSUS5 {
         System.out.println(" 2. Informasi Peserta                                          ");
         System.out.println(" 3. Pendaftaran peserta baru                                   ");
         System.out.println(" 4. Pendataan dan Pembayaran Peserta                           ");
-        System.out.println(" 5. Bantuan                                                    ");
         System.out.println("===============================================================");
         
         System.out.print("=>> ");
@@ -194,6 +191,9 @@ public class KURSUS5 {
                                 System.out.println("=======================================");
                                 
                                 listpeserta.add(new peserta(nama, status, Asal, Gmail, Gelombang));
+                                 for (peserta listpeserta1 : listpeserta) {
+                                Antrianpeserta.add(listpeserta1);
+        }
                                 System.out.println("=====================================");
                                 System.out.println("|   Peserta baru telah ditambahkan   |");
                                 System.out.println("=====================================");
@@ -484,8 +484,8 @@ public class KURSUS5 {
     }
         
        default: // Jika salah masukkan angka
-                            System.out.println("Angka yang anda masukkan tidak sesuai.");
-
+                            
+                            System.out.println("")
                             System.out.println("Kembali ke menu utama? (Y/T)");
                             System.out.print("=>> ");
                             String pilihkembali6 = input.next().toUpperCase();

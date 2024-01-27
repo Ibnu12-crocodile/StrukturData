@@ -65,12 +65,9 @@ public class KURSUS5 {
         ArrayList<peserta> listpeserta = new ArrayList<>();
         listpeserta.add(new peserta("Alif", "Pengangguran", "alif1@gmail.com", "Bandung", 1));
         listpeserta.add(new peserta("Asep", "Freelaancer", "asepso@gmail.com", "Jogja", 4));
-        listpeserta.add(new peserta("John", "Mahasiswa", "Johnsonml@gmail.com", "Bekasi", 2));
         listpeserta.add(new peserta("Gresia", "Pelajar", "Gresiachan@gmail.com", "Denpasar", 3));
         listpeserta.add(new peserta("Nana", "Ibu Rumah Tangga", "Nanana12@gmail.com", "Padalarang", 2));
-        listpeserta.add(new peserta("Mimi", "Karyawan", "Mimiaw22@gmail.com", "Aceh", 1));
-                
-
+                   
         kursus[] listkursus = {
             new kursus("Data Analyst", "Uncle Muthu", 10),
             new kursus("Hacker", "Bjorka", 18),

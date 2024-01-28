@@ -32,17 +32,21 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 <br>
   Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
 <br>
-1. Opsi 1 = Hari Kamis, Sesi Pagi, Jam 07.30 - 09.00<br>
-2. Opsi 2 = Hari Kamis, Sesi Malam, Jam 19.30 - 21.00<br>
-3. Opsi 3 = Hari Minggu, Sesi Pagi, Jam 07.30 - 09.00<br>
-4. Opsi 4 = Hari Minggu, Sesi Malam, Jam 19.30 - 21.00<br>
+<ol>
+<li>Opsi 1 = Hari Kamis, Sesi Pagi, Jam 07.30 - 09.00</li>
+<li>Opsi 2 = Hari Kamis, Sesi Malam, Jam 19.30 - 21.00</li>
+<li>Opsi 3 = Hari Minggu, Sesi Pagi, Jam 07.30 - 09.00</li>
+<li>Opsi 4 = Hari Minggu, Sesi Malam, Jam 19.30 - 21.00</li>
+</ol>
 <br>
   Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
 <br>
-1. Kategori A = Masa 1 bulan, Harga 100.000<br>
-2. Kategori B = Masa 3 bulan, Harga 300.000<br>
-3. Kategori C = Masa 7 bulan, Harga 600.000<br>
-4. Kategori D = Masa 1 tahun, Harga 900.000<br>
+<ol>
+<li>Kategori A = Masa 1 bulan, Harga 100.000</li>
+<li>Kategori B = Masa 3 bulan, Harga 300.000</li>
+<li>Kategori C = Masa 7 bulan, Harga 600.000</li>
+<li>Kategori D = Masa 1 tahun, Harga 900.000</li>
+</ol>
 <br>
   Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 3 kupon, kupon ini bisa peserta gunakan ketika peserta memasukan kode kupon dalam pendataan peserta, dan berikut adalah kupon yang kami sediakan<br>
 <br>

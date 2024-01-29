@@ -22,7 +22,7 @@
 
 ## Penjelasan Proyek
 <p>
-  Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
+Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
 yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :<br>
 <br>
 <ol>
@@ -32,7 +32,7 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 <li>Data Analyst</li>
 <ol>
 <br>
-  Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
+Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
 <br>
 <table border ="1">
   <tr>
@@ -67,20 +67,67 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
   </tr>
 </table>
 <br>
-  Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
+Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
 <br>
-<ol>
-<li>Kategori A = Masa 1 bulan, Harga 100.000</li>
-<li>Kategori B = Masa 3 bulan, Harga 300.000</li>
-<li>Kategori C = Masa 7 bulan, Harga 600.000</li>
-<li>Kategori D = Masa 1 tahun, Harga 900.000</li>
-</ol>
+<table border ="1">
+  <tr>
+    <th>Kategori</th>
+    <th>Masa</th>
+    <th>Harga</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>1 Bulan</td>
+    <td>100.000</td>
+  </tr>
+   <tr>
+    <td>B</td>
+    <td>3 Bulan</td>
+    <td>300.000</td>
+  </tr>
+   <tr>
+    <td>C</td>
+    <td>7 Bulan</td>
+    <td>600.000</td>   
+  </tr>
+   <tr>
+    <td>D</td>
+    <td>1 Tahun</td>
+    <td>900.000</td>
+  </tr>
+</table>
+
 <br>
-  Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 3 kupon, kupon ini bisa peserta gunakan ketika peserta memasukan kode kupon dalam pendataan peserta, dan berikut adalah kupon yang kami sediakan<br>
+  Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan<br>
 <br>
-Kupon Garuda = Kode(098), potongan harga (75000)<br>
-Kupon Merpati = Kode(123), potongan harga (50000)<br>
-Kupon Ayam = Kode(345), potongan harga (25000)<br>
+<table border ="1">
+  <tr>
+    <th>Kode</th>
+    <th>Nama Kupon</th>
+    <th>Potongan Harga</th>
+  </tr>
+  <tr>
+    <td>125</td>
+    <td>Ayam</td>
+    <td>25.000</td>
+  </tr>
+   <tr>
+    <td>349</td>
+    <td>Bebek</td>
+    <td>50.000</td>
+  </tr>
+   <tr>
+    <td>123</td>
+    <td>Elang</td>
+    <td>75.000</td>   
+  </tr>
+   <tr>
+    <td>345</td>
+    <td>Garuda</td>
+    <td>90.000</td>
+  </tr>
+</table>
+
 <br>
     Untuk peserta kita sudah data terlebih dahulu sebanyak 6 peserta yang berdasarkan nama, asal, status, nomor telepon, dan gelombang. Peserta yang sudah kami data nantinya akan kami lakukan pendataan selanjutnya untuk pemilihan kursus berdasarkan urutan yang diambil dari gelombang pendaftaran peserta<br>
 <br>

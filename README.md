@@ -67,7 +67,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
   </tr>
 </table>
 <br>
-Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
+<p>Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:</p>
 <br>
 <table border ="1">
   <tr>
@@ -98,7 +98,7 @@ Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berda
 </table>
 
 <br>
-  Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan<br>
+  <p>Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan</p><br>
 <br>
 <table border ="1">
   <tr>
@@ -129,10 +129,20 @@ Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berda
 </table>
 
 <br>
-    Untuk peserta kita sudah data terlebih dahulu sebanyak 6 peserta yang berdasarkan nama, asal, status, nomor telepon, dan gelombang. Peserta yang sudah kami data nantinya akan kami lakukan pendataan selanjutnya untuk pemilihan kursus berdasarkan urutan yang diambil dari gelombang pendaftaran peserta<br>
-<br>
-  Selanjutnya masuk ke program pendataan untuk menentukan pelajaran kursus, jadwal kursus, paket kursus, pemakaian kupon, dan transaksi.<br>
-Pendataan akan dimulai berdasarkan gelombang, jadi peserta yang mendaftar di gelombang pertama maka ia memiliki hak terlebih dahulu untuk pendataan kursus, setelah peserta memasukan pelajaran, jadwal, dan paket kursus maka peserta akan ditawarkan untuk menggunakan kupon, jika peserta ingin menggunakan kupon maka peserta harus memasukan kode kupon peserta yang didapat dari BOOTCAMP dan jika peserta tidak menggunakan kupon maka peserta tidak akan mendapatkan potongan harga dan lanjut ke pembayaran.
+    <p>Untuk peserta kita sudah data terlebih dahulu sebanyak 7 peserta yang berdasarkan nama, asal, status, Gmail, dan gelombang. Peserta yang sudah kami data nantinya akan kami masukan ke dalam Antrian Peserta, dan berikut adalah data peserta yang mendaftar</p>
+    <br>
+  <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:
+    <ol>
+      <li>Informasi Peserta<br>
+      <p>Pada menu ini peserta akan diberitahu informasi Kursus yang meliputi
+      <ul>
+        <li>List Pelajaran Kursus</li>
+        <li>List Jadwal Kursus</li>
+        <li>List Paket Kursus</li>
+      </ul>
+    Lalu akan ditampilkan juga untuk opsi kembali ke menu masukan Y</p>
+    </li>
+    </ol>
 </p>
 <p>
   Disini kita akan membahas sistem kupon di <b>BOOTCAMP IT</b>, ketika peserta menerima penawaran untuk menggunakan kupon maka peserta harus memasukan kode kupon  yang dimiliki, jika peserta sudah memasukan kode kupon maka kode kupon yang dimasukan dalam pendataan akan dicari atau disamakan dengan kode kupon yang tersimpan dalam kumpulan kupon, jika kode kupon yang dimasukan peserta sama dengan kode kupon yang tersimpan dalam kumpulan kupon maka kupon yang ada dalam kumpulan kupon akan ditampilkan dengan kode kupon, nama kupon, dan potongan harga yang didapat setelah itu maka secara otomatis harga paket yang sudah dipilih oleh peserta akan dikurang dengan potongan harga yang didapatkan oleh peserta pada kuponnya.<br>

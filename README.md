@@ -194,6 +194,32 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
   </li>
 </ul>
 </li>
+<li>Tipe Data
+  <ul>
+    <li>Peserta
+    <p>String nama, String status, String Gmail, String asal, int Gelombang</p>
+    </li>
+    <li>Pelajaran Kursus
+    <p>String namakursus, String mentor, int materi</p>
+    </li>
+    <li>Jadwal Kursus
+    <p>String opsi, String hari, String sesi, String Jam</p>
+    </li>
+    <li>Paket Kursus
+    <p>String kategori, String Masapaket, int harga</p>
+    </li>
+    <li>Kupon Kursus
+    <p>String kode, String namakupon, int potonganharga</p>
+    </li>
+    <li>Peserta data
+    <p>String nama, String namakursus, String opsi, String kode</p>
+    </li>
+    <li>TransaksiDetail
+      <p>String namaPeserta, String namakursus, String opsiJadwal, String kategoriPaket, int harga, int bayar, int kembalian</p>
+    </li>
+  </ul>
+</li>
+
   
 </ol>
 

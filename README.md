@@ -175,7 +175,8 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 ## Komponen Proyek
 <p>Berikut adalah komponen proyek yang kami gunakan.</p>
 <ol type="1">
-<li>Struktur data
+  
+<li>Struktur data <br>
 <ul>
   <li>Record
   <p>Kita menggunakan Struktur record untuk menyimpan tipe  data yang kami butuhkan pada sistem.</p>
@@ -194,7 +195,8 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
   </li>
 </ul>
 </li>
-<li>Tipe Data
+  
+<li>Tipe Data<br>
   <ul>
     <li>Peserta
     <p>String nama, String status, String Gmail, String asal, int Gelombang</p>
@@ -219,8 +221,44 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
     </li>
   </ul>
 </li>
-
   
+<li>Conditional<br>
+<ul>
+  <li>if else
+  <p>Kita menggunakan if else pada bagian penggunaan kupon untuk kondisi kupon habis dan ada, untuk menyesuaikan inputan dengan equals, dan untuk kondisi transaksi apabila lebih atau kurang dengan harga paket akhir  </p>
+  </li>
+  <li>Switch case
+    <p>Kita menggunakan Switch case untuk pilihan menu, untuk case kita deklarasikan ke dalam 3 case</p>
+  </li>
+</ul>
+</li>
+<li>Looping<br>
+<ul>
+  <li>Boolean
+  <p>Kita menggunakan bolean sebagai nilai true dan false untuk melakukan looping atau perulangan, untuk perulangan menu jika boolean ulangmenu = true, dan untuk perulangan transaksi jika boolean pembayarancukup = false</p>
+  </li>
+  <li>Do while
+  <p>Kita menggunakan do while untuk perulangan menu yang didukung atau disertai dengan boolean ulangmenu</p>
+  </li>
+  <li>While
+  <p>Kita menggunakan while pada pendataan untuk mengeluarkan Antrian atau untuk kondisi apabila antrian tidak kosong maka akan dikeluarkan </p>
+  </li>
+</ul>
+</li>
+
+<li>Lainnya<br>
+  <ul>
+    <li>Equals 
+       <p>Kita gunakan equals untuk perbandingan</p>
+    </li>
+    <li>Break
+      <p>Kita gunakan break untuk mengakhiri program</p>
+    </li>
+    <li>To Upper Case
+    <p>Kita menggunakan ini untuk membuat semua inputan menjadi huruf kapital</p>
+    </li>
+  </ul>
+</li>
 </ol>
 
 ## Pembagian Tim

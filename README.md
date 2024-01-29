@@ -153,7 +153,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
         <li>Gmail</li>
         <LI>Antrian</LI>
       </ul>
-        Kemudian akan ditampilkan pilihan ke menu.
+        <p>Kemudian akan ditampilkan pilihan ke menu.</p>
       </p>
       </li>
       <li>Pendataan dan Pembayaran

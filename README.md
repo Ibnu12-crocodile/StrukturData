@@ -151,7 +151,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
       <p>Pada menu ini peserta akan melakukan proses pendataan dan pembayaran<br>
       <ul>
         <li>Pendataan 
-        <p>Sebelum masuk pendataan peserta akan ditanya apakah akan memilih kursus, jika ya nanti peserta akan diminta untuk memasukan pelajaran kursus, jadwal kursus, paket kursus. Setelah peserta melakukan pendataan maka peserta akan diberi kupon sesuai dengan urutan antrian, jika kupon habis maka antrian berikutnya tidak akan menerima kupon yang telah diberikan</p>
+        <p>Pendataan dilakukan sesuai urutan antrian peserta. Sebelum masuk pendataan peserta akan ditanya apakah akan memilih kursus, jika ya nanti peserta akan diminta untuk memasukan pelajaran kursus, jadwal kursus, paket kursus. Jika tidak maka pendataan akan dilanjutkan ke antrian berikutnya. Setelah peserta melakukan pendataan maka peserta akan diberi kupon sesuai dengan urutan antrian, jika kupon habis maka antrian berikutnya tidak akan menerima kupon yang telah diberikan</p>
         </li>
         <li>Pembayaran
         <p>Sebelum peserta melakukan pembayaran, bagi peserta yang memiliki kupon maka harga paket yang telah dipilih akan dikurangi dengan potongan harga paket dan jika peserta tidak memiliki kupon maka peserta melanjutkan proses ke transaksi. Peserta akan dimintai untuk memasukan jumlah pembayaran, jika peserta memasukan jumlah pembayaran lebih atau pas dengan harga paket setelah diskon/potongan harga maka seluruh data yang sudah dimasukan meliputi pilihan pelajaran, jadwal, harga paket, harga setelah diskon, harga pembayaran dan harga kembalian akan langsung ditampilkan melalui riwayat transaksi.<br>

@@ -18,7 +18,7 @@
 </ul>
 
 ## Judul Proyek
-<p>Sistem Kursus.</p>
+<p><b>Sistem Kursus</b>.</p>
 
 ## Penjelasan Proyek
 <p>
@@ -173,19 +173,44 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 
 
 ## Komponen Proyek
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Berikut adalah komponen proyek yang kami gunakan.</p>
+<ol type="1">
+<li>Struktur data
+<ul>
+  <li>Record
+  <p>Kita menggunakan Struktur record untuk menyimpan tipe  data yang kami butuhkan pada sistem.</p>
+  </li>
+  <li>Array
+    <p>Kita mangisi data sesuai tipe pada record yang disimpan ke array.</p>
+  </li>
+  <li>Stack
+    <p>Kita menggunakan stack untuk pemberian kupon, dan stack untuk kupon kita beri nama kuponstack.</p>
+  </li>
+  <li>Priority Queue Comparator
+    <p>Dibagian ini kita memasukan  peserta yang sudah terdaftar ke dalam Antrian.</p>
+  </li>
+  <li>Linked List
+    <p>Pada bagian ini kita menyimpan data data yang diperlukann untuk menampilkan riwayat transaksi.</p>
+  </li>
+</ul>
+</li>
+  
+</ol>
 
 ## Pembagian Tim
-<p><b>Rachel Simanjuntak</b> = Array Record => Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
-<p><b>Luthfi Febrian</b> = Stack => Kupon<br>
-                   = Priorty Queue => Peserta<br>
-                   = Linked list => Peserta data</p>
-<p><b>Ibnu Rasyid Assidiq</b> = Kuponstack -> Pop<br>
+<p><b>Rachel Simanjuntak</b> = Array Record -> Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
+<p><b>Luthfi Febrian</b> = Stack -> Kupon<br>
+                   = Priorty Queue -> Peserta<br>
+<p><b>Ibnu Rasyid Assidiq</b>
+                    = swicth case -> Pilihan menu<br>
+                    = boolean -> Looping menu dan transaksi gagal<br>
+                    = do while -> Looping menu<br>
+                    = Kuponstack -> Pop<br>
                     = Transaksi<br>
                     = Linked List => Riwayat Transaksi</p>
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="">Github</a></li>
+  <li>Github: <a href="https://github.com/Ibnu12-crocodile">Github</a></li>
   <li>Youtube: <a href="">Youtube</a></li>
 </ul>

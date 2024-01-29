@@ -2,7 +2,7 @@
 
 package kursusfix1;
 
-
+// Sruktur Program 
 
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Arrays;
 
 public class KursusFix1 {
-
+// Record Untuk Menyimpan data
     record peserta(String nama, String status, String Gmail, String asal, int Gelombang) {}
 
     record kursus(String namakursus, String mentor, int materi) {}
@@ -30,7 +30,7 @@ public class KursusFix1 {
     record TransaksiDetail(String namaPeserta, String namakursus, String opsiJadwal, String kategoriPaket, int harga, int bayar, int kembalian) {}
     
  
-   
+   // Pemnaggilan paket harga 
       private static int paketHarga(paket[] listpaket, String kategori) {
         for (paket paket : listpaket) {
             if (paket.kategori.equalsIgnoreCase(kategori)) {
@@ -40,7 +40,7 @@ public class KursusFix1 {
         return 0; // Return 0 jika kategori paket tidak ditemukan
     }
     
-
+// Pemanggilan paket harga untuk kupon
     private static int paketHargaSetelahDiskon(paket[] listpaket, String kategori, kupon kupon) {
         for (paket paket : listpaket) {
             if (paket.kategori.equalsIgnoreCase(kategori)) {
@@ -53,38 +53,37 @@ public class KursusFix1 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+ // Data peserta
         ArrayList<peserta> listpeserta = new ArrayList<>();
         listpeserta.add(new peserta("Alif", "Pengangguran", "alif1@gmail.com", "Bandung", 1));
         listpeserta.add(new peserta("Asep", "Freelaancer", "asepso@gmail.com", "Jogja", 4));
         listpeserta.add(new peserta("Gresia", "Pelajar", "Gresiachan@gmail.com", "Denpasar", 3));
         listpeserta.add(new peserta("Nana", "Ibu Rumah Tangga", "Nanana12@gmail.com", "Padalarang", 2));
-        listpeserta.add(new peserta("Mimi", "Karyawan", "082172839876", "Aceh", 1));
-        listpeserta.add(new peserta("John", "Mahasiswa", "082198654329", "Bekasi", 2));
-        listpeserta.add(new peserta("John", "Mahasiswa", "082198654329", "Bekasi", 2));
-        
-
+        listpeserta.add(new peserta("Mimi", "Karyawan", "karyajaya@gmail.com", "Aceh", 5));
+        listpeserta.add(new peserta("John", "Mahasiswa", "joe222@gmail.com", "Bekasi", 7));
+        listpeserta.add(new peserta("Alex", "Mahasiswa", "oldlex@gmail.com", "Banjarmasin", 6));
+// Data kursus
         kursus[] listkursus = {
             new kursus("Data Analyst", "Uncle Muthu", 10),
             new kursus("Hacker", "Bjorka", 18),
             new kursus("UI/UX", "Messi", 17),
             new kursus("Web developer", "Sule", 17)
         };
-
+// Data jadwal
         jadwal[] listjadwal = {
             new jadwal("1", "Kamis", "Pagi", "07.30 - 09.00"),
             new jadwal("2", "Kamis", "Malam", "19.30 - 21.00"),
             new jadwal("3", "Minggu", "Pagi", "07.30 - 09.00"),
             new jadwal("4", "Minggu", "Malam", "19.30 - 21.00")
         };
-
+// Data paket
         paket[] listpaket = {
             new paket("A", "1 BULAN", 100000),
             new paket("B", "3 BULAN", 300000),
             new paket("C", "7 BULAN", 600000),
             new paket("D", "1 TAHUN", 900000)
         };
-
+//Data kupon
         kupon[] listkupon = {
             new kupon("125", "Ayam", 25000),
             new kupon("349", "Bebek", 50000),
@@ -92,17 +91,17 @@ public class KursusFix1 {
             new kupon("345", "Garuda", 90000),
             
         };
-
+// Kupon dimasukan kedalam kuponsstack
         Stack<kupon> kuponstack = new Stack<>();
         for (kupon kupon1 : listkupon) {
             kuponstack.push(kupon1);
         }
-
+// Peserta dimasukan ke dalam Antrianpeserta
         PriorityQueue<peserta> Antrianpeserta = new PriorityQueue<>(Comparator.comparingInt(peserta::Gelombang));
          for (peserta listpeserta1 : listpeserta) {
             Antrianpeserta.add(listpeserta1);
         }
-       
+// boleean dan do while untuk pengulangan menu
         boolean ulangmenu = true;
         do{
         
@@ -121,6 +120,7 @@ public class KursusFix1 {
         switch (MenuAwal) {
 
         case 1:
+                // program untuk menampilkan informasi kursus
         System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
         System.out.println("===============================================================");
         System.out.println("                  LIST PELAJARAN KURSUS                        ");
@@ -153,6 +153,7 @@ public class KursusFix1 {
                             ulangmenu = GuestUlang1.equals("Y");
                             break;
         case 2:
+                // program untuk menampilkan peserta
                                System.out.println("==================================================================================");
                                System.out.println("                               LIST PESERTA                                       ");
                                System.out.println("==================================================================================");
@@ -174,8 +175,11 @@ public class KursusFix1 {
        
         
         case 3:
+                // program untuk pendataan dan pembayaran
+
+        // List Untuk mencetak transaksi
         List<TransaksiDetail> riwayatTransaksiKupon = new ArrayList<>();
-        while (!Antrianpeserta.isEmpty()) {
+        while (!Antrianpeserta.isEmpty()) { 
             peserta pesertacek = Antrianpeserta.poll();
             System.out.println("");
             System.out.println("Nama: " + pesertacek.nama() + ", Status: " + pesertacek.status() + ", Asal: "

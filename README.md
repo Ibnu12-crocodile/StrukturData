@@ -98,7 +98,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 </table>
 
 <br>
-  <p>Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan</p><br>
+  <p>Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan.</p><br>
 <br>
 <table border ="1">
   <tr>
@@ -129,7 +129,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 </table>
 
 <br>
-    <p>Untuk peserta kita sudah data terlebih dahulu sebanyak 7 peserta yang berdasarkan nama, asal, status, Gmail, dan gelombang. Peserta yang sudah kami data nantinya akan kami masukan ke dalam Antrian Peserta, dan berikut adalah data peserta yang mendaftar</p>
+    <p>Untuk peserta kita sudah data terlebih dahulu sebanyak 7 peserta yang berdasarkan nama, asal, status, Gmail, dan gelombang. Peserta yang sudah kami data nantinya akan kami masukan ke dalam Antrian Peserta.</p>
     <br>
   <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:
     <ol type="1">
@@ -142,10 +142,19 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
         <li>List Paket Kursus</li>
       </ul>
         <br>
-    Lalu akan ditampilkan juga untuk opsi kembali ke menu masukan Y</p>
+    Lalu akan ditampilkan juga untuk opsi kembali ke menu.</p>
     </li>
       <li>Informasi Peserta
-      <p>Pada pilihan menu kedua akan ditampilkan informasi anggota yang sudah mendaftar</p>
+      <p>Pada pilihan menu kedua akan ditampilkan informasi anggota yang sudah mendaftar beserta dengan:
+      <ul>
+        <li>Nama Peserta</li>
+        <li>Asal</li>
+        <li>Status</li>
+        <li>Gmail</li>
+        <LI>Antrian</LI>
+      </ul>
+        Kemudian akan ditampilkan pilihan ke menu.
+      </p>
       </li>
       <li>Pendataan dan Pembayaran
       <p>Pada menu ini peserta akan melakukan proses pendataan dan pembayaran<br>
@@ -154,8 +163,8 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
         <p>Pendataan dilakukan sesuai urutan antrian peserta. Sebelum masuk pendataan peserta akan ditanya apakah akan memilih kursus, jika ya nanti peserta akan diminta untuk memasukan pelajaran kursus, jadwal kursus, paket kursus. Jika tidak maka pendataan akan dilanjutkan ke antrian berikutnya. Setelah peserta melakukan pendataan maka peserta akan diberi kupon sesuai dengan urutan antrian, jika kupon habis maka antrian berikutnya tidak akan menerima kupon yang telah diberikan</p>
         </li>
         <li>Pembayaran
-        <p>Sebelum peserta melakukan pembayaran, bagi peserta yang memiliki kupon maka harga paket yang telah dipilih akan dikurangi dengan potongan harga paket dan jika peserta tidak memiliki kupon maka peserta melanjutkan proses ke transaksi. Peserta akan dimintai untuk memasukan jumlah pembayaran, jika peserta memasukan jumlah pembayaran lebih atau pas dengan harga paket setelah diskon/potongan harga maka seluruh data yang sudah dimasukan meliputi pilihan pelajaran, jadwal, harga paket, harga setelah diskon, harga pembayaran dan harga kembalian akan langsung ditampilkan melalui riwayat transaksi.<br>
-        Akan tetapi jika pembayaran yang dilakukan oleh peserta kurang dari harga paket setelah diskon maka peserta akan diberitahu jika pembayaran kurang dan peserta akan diberikan pilihan untuk melakukan pembayaran kembali atau tidak, jika peserta memilih untuk melakukan pembayaran kembali maka peserta akan mengulang proses transaksi sedangkan jika peserta memilih tidak maka akan dilanjutkan proses pendataan oleh Atrian peserta berikutnya</p>
+        <p>Sebelum peserta melakukan pembayaran, bagi peserta yang memiliki kupon maka harga paket yang telah dipilih akan dikurangi dengan potongan harga paket dan jika peserta tidak memiliki kupon maka peserta melanjutkan proses ke transaksi. Peserta akan dimintai untuk memasukan jumlah pembayaran, jika peserta memasukan jumlah pembayaran lebih atau pas dengan harga paket akhir maka seluruh data yang sudah dimasukan meliputi pilihan pelajaran, jadwal, harga paket, harga setelah diskon atau harga paket tanpa kupon, harga pembayaran dan harga kembalian akan langsung ditampilkan melalui riwayat transaksi.<br>
+        Akan tetapi jika pembayaran yang dilakukan oleh peserta kurang dari harga paket akhir maka peserta akan diberitahu jika pembayaran kurang dan peserta akan diberikan pilihan untuk melakukan pembayaran kembali atau tidak, jika peserta memilih untuk melakukan pembayaran kembali maka peserta akan mengulang proses transaksi sedangkan jika peserta memilih tidak maka akan dilanjutkan proses pendataan oleh Atrian peserta berikutnya</p>
         </li>
       </ul>
       </p></li>

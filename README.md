@@ -25,19 +25,47 @@
   Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
 yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :<br>
 <br>
-1. Hacker<br>
-2. Web Developer<br>
-3. UI/UX Design<br>
-4. Data Analyst<br>
+<ol>
+<li>Hacker<br>
+<li>Web Developer</li>
+<li>UI/UX Design</li>
+<li>Data Analyst</li>
+<ol>
 <br>
   Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
 <br>
-<ol>
-<li>Opsi 1 = Hari Kamis, Sesi Pagi, Jam 07.30 - 09.00</li>
-<li>Opsi 2 = Hari Kamis, Sesi Malam, Jam 19.30 - 21.00</li>
-<li>Opsi 3 = Hari Minggu, Sesi Pagi, Jam 07.30 - 09.00</li>
-<li>Opsi 4 = Hari Minggu, Sesi Malam, Jam 19.30 - 21.00</li>
-</ol>
+<table border ="1">
+  <tr>
+    <th>Opsi</th>
+    <th>Hari</th>
+    <th>Sesi</th>
+    <th>Jam</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Kamis</td>
+    <td>Pagi</td>
+    <td>07.30 - 09.00</td>
+  </tr>
+   <tr>
+    <td>2</td>
+    <td>Kamis</td>
+    <td>Malam</td>
+    <td>19.30 - 21.00</td>
+  </tr>
+   <tr>
+    <td>3</td>
+    <td>Minggu</td>
+    <td>Pagi</td>
+    <td>07.30 - 09.00</td>
+  </tr>
+   <tr>
+    <td>4</td>
+    <td>Minggu</td>
+    <td>Malam</td>
+    <td>19.30 - 21.00</td>
+  </tr>
+</table>
 <br>
   Untuk harga pelajaran kursus kami menyediakan beberapa kategori paket yang berdasarkan kategori paket, Masa paket, dan Harga paket. Paket yang kami sediakan adalah sebagai berikut:<br>
 <br>

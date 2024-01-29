@@ -132,24 +132,34 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
     <p>Untuk peserta kita sudah data terlebih dahulu sebanyak 7 peserta yang berdasarkan nama, asal, status, Gmail, dan gelombang. Peserta yang sudah kami data nantinya akan kami masukan ke dalam Antrian Peserta, dan berikut adalah data peserta yang mendaftar</p>
     <br>
   <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:
-    <ol>
+    <ol type="1">
       <li>Informasi Peserta<br>
-      <p>Pada menu ini peserta akan diberitahu informasi Kursus yang meliputi
+      <p>Pada menu ini peserta akan diberitahu informasi Kursus yang meliputi:
+      <br>
       <ul>
         <li>List Pelajaran Kursus</li>
         <li>List Jadwal Kursus</li>
         <li>List Paket Kursus</li>
       </ul>
+        <br>
     Lalu akan ditampilkan juga untuk opsi kembali ke menu masukan Y</p>
     </li>
+      <li>Informasi Peserta
+      <p>Pada pilihan menu kedua akan ditampilkan informasi anggota yang sudah mendaftar</p>
+      </li>
+      <li>Pendataan dan Pembayaran
+      <p>Pada menu ini peserta akan melakukan proses pendataan dan pembayaran<br>
+      <ul>
+        <li>Pendataan 
+        <p>Sebelum masuk pendataan peserta akan ditanya apakah akan memilih kursus, jika ya nanti peserta akan diminta untuk memasukan pelajaran kursus, jadwal kursus, paket kursus. Setelah peserta melakukan pendataan maka peserta akan diberi kupon sesuai dengan urutan antrian, jika kupon habis maka antrian berikutnya tidak akan menerima kupon yang telah diberikan</p>
+        </li>
+        <li>Pembayaran
+        <p>Sebelum peserta melakukan pembayaran, bagi peserta yang memiliki kupon maka harga paket yang telah dipilih akan dikurangi dengan potongan harga paket dan jika peserta tidak memiliki kupon maka peserta melanjutkan proses ke transaksi. Peserta akan dimintai untuk memasukan jumlah pembayaran, jika peserta memasukan jumlah pembayaran lebih atau pas dengan harga paket setelah diskon/potongan harga maka seluruh data yang sudah dimasukan meliputi pilihan pelajaran, jadwal, harga paket, harga setelah diskon, harga pembayaran dan harga kembalian akan langsung ditampilkan melalui riwayat transaksi.<br>
+        Akan tetapi jika pembayaran yang dilakukan oleh peserta kurang dari harga paket setelah diskon maka peserta akan diberitahu jika pembayaran kurang dan peserta akan diberikan pilihan untuk melakukan pembayaran kembali atau tidak, jika peserta memilih untuk melakukan pembayaran kembali maka peserta akan mengulang proses transaksi sedangkan jika peserta memilih tidak maka akan dilanjutkan proses pendataan oleh Atrian peserta berikutnya</p>
+        </li>
+      </ul>
+      </p></li>
     </ol>
-</p>
-<p>
-  Disini kita akan membahas sistem kupon di <b>BOOTCAMP IT</b>, ketika peserta menerima penawaran untuk menggunakan kupon maka peserta harus memasukan kode kupon  yang dimiliki, jika peserta sudah memasukan kode kupon maka kode kupon yang dimasukan dalam pendataan akan dicari atau disamakan dengan kode kupon yang tersimpan dalam kumpulan kupon, jika kode kupon yang dimasukan peserta sama dengan kode kupon yang tersimpan dalam kumpulan kupon maka kupon yang ada dalam kumpulan kupon akan ditampilkan dengan kode kupon, nama kupon, dan potongan harga yang didapat setelah itu maka secara otomatis harga paket yang sudah dipilih oleh peserta akan dikurang dengan potongan harga yang didapatkan oleh peserta pada kuponnya.<br>
-  Akan tetapi jika saat kode kupon yang dimasukan salah dan tidak sama dengan kode kupon yang tersimpan dalam kumpulan kupon maka peserta tidak akan mendapatkan diskon dan melanjutkan ke transaksi, dan apabila kode kupon yang dimasukan terdahului oleh peserta sebelumnya maka kupon pun tidak bisa didapatkan dan akan langsung menuju proses transaksi jadi satu kupon yang kami sediakan hanya berlaku untuk satu peserta.
-</p>
-<p>
-  Jikalau peserta telah melewati program kupon maka peserta akan ditampilkan harga paket akhir baik itu yang telah mendapatkan diskon dari kupon maupun yang tidak menggunakan kupon, disini peserta akan dimintai bayaran untuk tagihan paket yang dipilih, jika bayaran yang dimasukan peserta lebih dari sama dengan tagihan paket maka keterangan pendataan peserta akan dicetak langsung ke dalam riwayat, sedangkan jika bayaran yang dimasukan kurang maka akan ada pemberitahuan jika pembayaran kurang dan akan ditawarkan juga kepada peserta untuk melakukan pembayaran kembali, jika peserta ingin melakukan pembayaran kembali maka peserta akan lanjut ke transaksi akan tetapi jika peserta tidak melanjutkan pembayaran maka pendataan akan dilanjutkan ke antrian peserta berikutnya. Dan untuk riwayanya kami menapilkan nama pelajaran, jadwal pelajaran, harga akhir paket, jumlah pembayaran, dan kembalian peserta.
 </p>
 
 

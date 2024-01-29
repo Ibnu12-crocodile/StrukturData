@@ -133,7 +133,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
     <br>
   <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:
     <ol type="1">
-      <li>Informasi Peserta<br>
+      <li>Informasi Kursus<br>
       <p>Pada menu ini peserta akan diberitahu informasi Kursus yang meliputi:
       <br>
       <ul>

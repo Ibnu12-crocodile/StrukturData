@@ -275,6 +275,6 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="[https://github.com/Ibnu12-crocodile](https://github.com/Ibnu12-crocodile/StrukturData?tab=readme-ov-file)">Github</a></li>
+  <li>Github: <a href="https://github.com/Ibnu12-crocodile/StrukturData?tab=readme-ov-file">Github</a></li>
   <li>Youtube: <a href="">Youtube</a></li>
 </ul>

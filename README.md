@@ -238,10 +238,10 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
   <p>Kita menggunakan bolean sebagai nilai true dan false untuk melakukan looping atau perulangan, untuk perulangan menu jika boolean ulangmenu = true, dan untuk perulangan transaksi jika boolean pembayarancukup = false</p>
   </li>
   <li>Do while
-  <p>Kita menggunakan do while untuk perulangan menu yang didukung atau disertai dengan boolean ulangmenu</p>
+  <p>Kita menggunakan do while untuk perulangan menu yang didukung atau disertai dengan boolean ulangmenu.</p>
   </li>
   <li>While
-  <p>Kita menggunakan while pada pendataan untuk mengeluarkan Antrian atau untuk kondisi apabila antrian tidak kosong maka akan dikeluarkan </p>
+  <p>Kita menggunakan while pada pendataan untuk mengeluarkan Antrian atau untuk kondisi apabila antrian tidak kosong maka akan dikeluarkan, dan Untuk pembayaran tidak cukup. </p>
   </li>
 </ul>
 </li>
@@ -249,13 +249,13 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 <li>Lainnya<br>
   <ul>
     <li>Equals 
-       <p>Kita gunakan equals untuk perbandingan</p>
+       <p>Kita gunakan equals untuk perbandingan.</p>
     </li>
     <li>Break
-      <p>Kita gunakan break untuk mengakhiri program</p>
+      <p>Kita gunakan break untuk mengakhiri program.</p>
     </li>
     <li>To Upper Case
-    <p>Kita menggunakan ini untuk membuat semua inputan menjadi huruf kapital</p>
+    <p>Kita menggunakan ini untuk membuat semua inputan menjadi huruf kapital.</p>
     </li>
   </ul>
 </li>

@@ -29,7 +29,7 @@ public class KursusFix1 {
     
     record TransaksiDetail(String namaPeserta, String namakursus, String opsiJadwal, String kategoriPaket, int harga, int bayar, int kembalian) {}
     
- 
+    record pesertabaru (String nama, String status, String Gmail, String asal, int Gelombang) {}
    // Pemnaggilan paket harga 
       private static int paketHarga(paket[] listpaket, String kategori) {
         for (paket paket : listpaket) {
@@ -98,10 +98,10 @@ public class KursusFix1 {
         }
 // Peserta dimasukan ke dalam Antrianpeserta
         PriorityQueue<peserta> Antrianpeserta = new PriorityQueue<>(Comparator.comparingInt(peserta::Gelombang));
-         for (peserta listpeserta1 : listpeserta) {
-            Antrianpeserta.add(listpeserta1);
+        for (peserta listpeserta2 : listpeserta) {
+            Antrianpeserta.add(listpeserta2);
         }
-// boleean dan do while untuk pengulangan menu
+        // boleean dan do while untuk pengulangan menu
         boolean ulangmenu = true;
         do{
         
@@ -174,6 +174,8 @@ public class KursusFix1 {
         
        
         
+            
+         
         case 3:
                 // program untuk pendataan dan pembayaran
 
@@ -260,6 +262,7 @@ public class KursusFix1 {
                         System.out.println("Kembalian: " + transaksi.kembalian());
                         System.out.println("--------------------------------");
                     }
+                    riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
                     boolean pembayaranCukup = false;
 
@@ -310,6 +313,7 @@ public class KursusFix1 {
                                             System.out.println("Kembalian: " + transaksi.kembalian());
                                             System.out.println("--------------------------------");
                                         }
+                                          riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
                                         // Informasikan pengguna bahwa pembayaran masih kurang
                                         System.out.println("");
@@ -384,6 +388,7 @@ public class KursusFix1 {
                         System.out.println("Kembalian: " + transaksi.kembalian());
                         System.out.println("--------------------------------");
                     }
+                      riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
                     boolean pembayaranCukup = false;
 
@@ -434,6 +439,7 @@ public class KursusFix1 {
                                             System.out.println("Kembalian: " + transaksi.kembalian());
                                             System.out.println("--------------------------------");
                                         }
+                                          riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
                                         // Informasikan pengguna bahwa pembayaran masih kurang
                                         System.out.println("");
@@ -452,8 +458,11 @@ public class KursusFix1 {
                 } 
                 
             } 
-        } 
-    }
+        }
+        }
+        
+        
+        
      
             
         
@@ -462,8 +471,8 @@ public class KursusFix1 {
                             System.out.println("");
                             System.out.println("Kembali ke menu utama? (Y/T)");
                             System.out.print("=>> ");
-                            String pilihkembali6 = input.next().toUpperCase();
-                            ulangmenu = pilihkembali6.equals("Y");
+                            String pilihkembali7 = input.next().toUpperCase();
+                            ulangmenu = pilihkembali7.equals("Y");
                             break;} 
         }while(ulangmenu);
         } 

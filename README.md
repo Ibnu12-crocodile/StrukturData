@@ -23,16 +23,16 @@
 ## Penjelasan Proyek
 <p>
 Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
-yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :<br>
+yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :</p><br>
 <br>
 <ol>
 <li>Hacker<br>
 <li>Web Developer</li>
 <li>UI/UX Design</li>
 <li>Data Analyst</li>
-<ol>
+</ol>
 <br>
-Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:<br>
+<p>Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:</p><br>
 <br>
 <table border ="1">
   <tr>
@@ -131,7 +131,7 @@ Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajara
 <br>
     <p>Untuk peserta kita sudah data terlebih dahulu sebanyak 7 peserta yang berdasarkan nama, asal, status, Gmail, dan gelombang. Peserta yang sudah kami data nantinya akan kami masukan ke dalam Antrian Peserta.</p>
     <br>
-  <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:
+  <p>di awal program kita menampilkan ucapan selamat datang dan pilihan menu untuk peserta, dan untuk opsi pemilihan menu sesuai dengan angka yang berada di menu ,disini kami menyediakan 3 menu yaitu:</p>
     <ol type="1">
       <li>Informasi Kursus<br>
       <p>Pada menu ini peserta akan diberitahu informasi Kursus yang meliputi:

@@ -119,39 +119,50 @@ public class KursusFix1 {
                     input.nextLine();
         switch (MenuAwal) {
 
-        case 1:
-                // program untuk menampilkan informasi kursus
-        System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
-        System.out.println("===============================================================");
-        System.out.println("                  LIST PELAJARAN KURSUS                        ");
-        System.out.println("===============================================================");
+     case 1:
+    // program untuk menampilkan informasi kursus
+         System.out.println("");
+    System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
+    System.out.println("");
+    System.out.println("========================================================");
+    System.out.println("|                 LIST PELAJARAN KURSUS                |");
+    System.out.println("========================================================");
+    System.out.println("| No. | Pelajaran       | Mentor       | Jumlah Materi |");
+    System.out.println("========================================================");
+    for (int i = 0; i < listkursus.length; i++) {
+        kursus kursus = listkursus[i];
+        System.out.printf("| %-3d | %-15s | %-12s | %-13d |\n", i+1, kursus.namakursus(), kursus.mentor(), kursus.materi());
+    }
+    System.out.println("========================================================");
+    System.out.println("");
+    System.out.println("===============================================");
+    System.out.println("|               JADWAL KURSUS                 |");
+    System.out.println("===============================================");
+    System.out.println("| No. | Opsi | Hari   | Sesi  | Jam           |");
+    System.out.println("===============================================");
+    for (int i = 0; i < listjadwal.length; i++) {
+        jadwal jadwal = listjadwal[i];
+        System.out.printf("| %-3d | %-4s | %-6s | %-5s | %-10s |\n", i+1, jadwal.opsi(), jadwal.hari(), jadwal.sesi(), jadwal.Jam());
+    }
+    System.out.println("===============================================");
+    System.out.println("");
+    System.out.println("============================================");
+    System.out.println("|            LIST PAKET KURSUS             |");
+    System.out.println("============================================");
+    System.out.println("| No. | Kategori | Masa Paket | Harga      |");
+    System.out.println("============================================");
+    for (int i = 0; i < listpaket.length; i++) {
+        paket paket = listpaket[i];
+        System.out.printf("| %-3d | %-8s | %-10s | %-10d |\n", i+1, paket.kategori(), paket.Masapaket(), paket.harga());
+    }
+    System.out.println("=============================================");
+    System.out.println("Kembali ke menu utama? (Y/T)");
+    System.out.print("=>> ");
+    String GuestUlang1 = input.next().toUpperCase();
+    ulangmenu = GuestUlang1.equals("Y");
+    break;
 
-        for (kursus Pelajaran : listkursus) {
-            System.out.println("Pelajaran: " + Pelajaran.namakursus() + ", Mentor: " + Pelajaran.mentor()
-                    + ", Jumlah materi: " + Pelajaran.materi());
-        }
 
-        System.out.println("===============================================================");
-        System.out.println("                  LIST JADWAL KURSUS                           ");
-        System.out.println("===============================================================");
-
-        for (jadwal jadwal : listjadwal) {
-            System.out.println("Opsi: " + jadwal.opsi() + ", Hari: " + jadwal.hari() + ", Sesi : " + jadwal.sesi() + ", Jam: "
-                    + jadwal.Jam());
-        }
-
-        System.out.println("===============================================================");
-        System.out.println("                  LIST PAKET KURSUS                           ");
-        System.out.println("===============================================================");
-
-        for (paket paket : listpaket) {
-            System.out.println("Kategori: " + paket.kategori() + ", Paket: " + paket.Masapaket() + ", Harga: " + paket.harga());
-        }
-          System.out.println("Kembali ke menu utama? (Y/T)");
-                            System.out.print("=>> ");
-                            String GuestUlang1 = input.next().toUpperCase();
-                            ulangmenu = GuestUlang1.equals("Y");
-                            break;
         case 2:
                 // program untuk menampilkan peserta
                                System.out.println("==================================================================================");
@@ -260,7 +271,7 @@ public class KursusFix1 {
                         System.out.println("Harga Paket: " + transaksi.harga());
                         System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                         System.out.println("Kembalian: " + transaksi.kembalian());
-                        System.out.println("--------------------------------");
+                         System.out.println("---------------------------------------------");
                     }
                     riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
@@ -311,7 +322,7 @@ public class KursusFix1 {
                                             System.out.println("Harga Paket: " + transaksi.harga());
                                             System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                                             System.out.println("Kembalian: " + transaksi.kembalian());
-                                            System.out.println("--------------------------------");
+                                             System.out.println("---------------------------------------------");
                                         }
                                           riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
@@ -386,7 +397,7 @@ public class KursusFix1 {
                         System.out.println("Harga Paket: " + transaksi.harga());
                         System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                         System.out.println("Kembalian: " + transaksi.kembalian());
-                        System.out.println("--------------------------------");
+                    System.out.println("---------------------------------------------");
                     }
                       riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
@@ -437,7 +448,7 @@ public class KursusFix1 {
                                             System.out.println("Harga Paket: " + transaksi.harga());
                                             System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                                             System.out.println("Kembalian: " + transaksi.kembalian());
-                                            System.out.println("--------------------------------");
+                                            System.out.println("-----------------------------------------");
                                         }
                                           riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
@@ -460,22 +471,36 @@ public class KursusFix1 {
             } 
         }
         }
-        
-        
-        
-     
-            
-        
-       default: // Jika salah masukkan angka
-                            
                             System.out.println("");
                             System.out.println("Kembali ke menu utama? (Y/T)");
                             System.out.print("=>> ");
                             String pilihkembali7 = input.next().toUpperCase();
                             ulangmenu = pilihkembali7.equals("Y");
-                            break;} 
+                            break;
+                            
+        default :
+            System.out.println("");
+                            System.out.println("Pilihan Anda salah");
+                            System.out.println("Kembali ke menu awal(Y/T)");
+                            System.out.print("=>> ");
+                            String pilihkembali08 = input.next().toUpperCase();
+                            ulangmenu = pilihkembali08.equals("Y");
+                            break;
+                            
+        }
+                            
+         
+        
+       
+        
+        
+        
+        
+         
         }while(ulangmenu);
-        } 
+        }
+    
+    
 } 
 
  

@@ -275,6 +275,6 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="https://github.com/Ibnu12-crocodile/StrukturData?tab=readme-ov-file">Github</a></li>
+  <li>Github: <a href="https://github.com/Ibnu12-crocodile/StrukturData">Github</a></li>
   <li>Youtube: <a href="">Youtube</a></li>
 </ul>

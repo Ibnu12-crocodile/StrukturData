@@ -155,7 +155,7 @@ public class KursusFix1 {
         paket paket = listpaket[i];
         System.out.printf("| %-3d | %-8s | %-10s | %-10d |\n", i+1, paket.kategori(), paket.Masapaket(), paket.harga());
     }
-    System.out.println("=============================================");
+    System.out.println("============================================");
     System.out.println("Kembali ke menu utama? (Y/T)");
     System.out.print("=>> ");
     String GuestUlang1 = input.next().toUpperCase();
@@ -163,27 +163,25 @@ public class KursusFix1 {
     break;
 
 
-        case 2:
-                // program untuk menampilkan peserta
-                               System.out.println("==================================================================================");
-                               System.out.println("                               LIST PESERTA                                       ");
-                               System.out.println("==================================================================================");
-                                 for (peserta Peserta : listpeserta) {
-                                     System.out.println( "Nama: " + Peserta.nama());
-                                     System.out.println("Asal: " + Peserta.asal());
-                                     System.out.println("Status: " + Peserta.status());
-                                     System.out.println("Gmail: " + Peserta.Gmail());
-                                     System.out.println("Antrian: " + Peserta.Gelombang());
-                                     System.out.println("");
-                                }
-                                System.out.println("==================================================================================================================================");
-                                System.out.println("Kembali ke menu utama? (Y/T)");
-                                System.out.print("=>> ");
-                                String pilihkembali2 = input.next().toUpperCase();
-                                ulangmenu = pilihkembali2.equals("Y");
-                                break;   
-        
-       
+     case 2:
+    // program untuk menampilkan peserta
+    System.out.println("========================================================================================");
+    System.out.println("|                               LIST PESERTA                                           |");
+    System.out.println("========================================================================================");
+    System.out.printf("| %-20s | %-15s | %-20s | %-20s |\n", "Nama", "Asal", "Status", "Gmail");
+    System.out.println("========================================================================================");
+    for (peserta Peserta : listpeserta) {
+        System.out.printf("| %-20s | %-15s | %-20s | %-20s |\n", Peserta.nama(), Peserta.asal(), Peserta.status(), Peserta.Gmail());
+    }
+    System.out.println("========================================================================================");
+    System.out.println("Kembali ke menu utama? (Y/T)");
+    System.out.print("=>> ");
+    String pilihkembali2 = input.next().toUpperCase();
+    ulangmenu = pilihkembali2.equals("Y");
+    break;  
+
+
+
         
             
          
@@ -208,23 +206,45 @@ public class KursusFix1 {
                 String Opsi1 = input.nextLine();
                 System.out.print("Masukan Kategori Paket Kursus Yang Anda Pilih: ");
                 String kategori1 = input.nextLine();
+            //Keterangan pilihan peserta
+             System.out.println("=====================================");
+             System.out.println("|        KETERANGAN PILIHAN         |");
+             System.out.println("=====================================");
+             System.out.println("Pelajaran Kursus:");
+             System.out.println("------------------------------");
+             for (kursus kursus : listkursus) {
+                if (kursus.namakursus().equalsIgnoreCase(namakursus1)) {
+                    System.out.println("- Nama Kursus: " + kursus.namakursus());
+                    System.out.println("- Mentor: " + kursus.mentor());
+                    System.out.println("- Jumlah Materi: " + kursus.materi());
+                    break; // Keluar dari loop setelah ditemukan kursus yang sesuai
+                }
+            }
+             System.out.println("------------------------------");
+             System.out.println("Jadwal Kursus:");
+             System.out.println("------------------------------");
+            for (jadwal jadwal : listjadwal) {
+                if (jadwal.opsi().equalsIgnoreCase(Opsi1)) {
+                    System.out.println("- Opsi: " + jadwal.opsi());
+                    System.out.println("- Hari: " + jadwal.hari());
+                    System.out.println("- Sesi: " + jadwal.sesi());
+                    System.out.println("- Jam: " + jadwal.Jam());
+                    break; 
+                }
+            }
+             System.out.println("------------------------------");
+             System.out.println("Paket Kursus:");
+             System.out.println("------------------------------");
+            for (paket paket : listpaket) {
+                if (paket.kategori().equalsIgnoreCase(kategori1)) {
+                    System.out.println("- Kategori: " + paket.kategori());
+                    System.out.println("- Masa Paket: " + paket.Masapaket());
+                    System.out.println("- Harga: " + paket.harga());
+                    break; 
+                }
+            }
+            System.out.println("------------------------------");
 
-                for (kursus kursus : listkursus)
-                    if (kursus.namakursus().equalsIgnoreCase(namakursus1)) {
-                        System.out.println("");
-                        System.out.println("Kursus: " + kursus.namakursus() + ", Nama Mentor: " + kursus.mentor()
-                                + ", jumlahMateri: " + kursus.materi());
-                    }
-                for (jadwal jadwal : listjadwal)
-                    if (jadwal.opsi().equalsIgnoreCase(Opsi1)) {
-                        System.out.println("Opsi: " + jadwal.opsi() + ", Hari: " + jadwal.hari() + ", Sesi: " + jadwal.sesi()
-                                + ", Jam: " + jadwal.Jam());
-                    }
-                for (paket paket : listpaket)
-                    if (paket.kategori().equalsIgnoreCase(kategori1)) {
-                        System.out.println(
-                                "Kategori: " + paket.kategori() + ", Paket: " + paket.Masapaket() + ", Harga: " + paket.harga());
-                    }
           if(kuponstack.isEmpty()) {
             System.out.println("==========================");
             System.out.println("| MAAF KUPON TELAH HABIS |");
@@ -234,7 +254,9 @@ public class KursusFix1 {
                 System.out.println("Harga Paket setelah Potongan Harga Kupon: " + hargaPaketTanpaKupon);
                 
               
-                System.out.println("");
+                System.out.println("===================================");
+                System.out.println("|           PEMBAYARAN            |");
+                System.out.println("===================================");
                 System.out.print("Masukkan Jumlah Pembayaran Anda: ");
                 int bayar = input.nextInt();
                 input.nextLine();  // membersihkan newline character
@@ -271,7 +293,7 @@ public class KursusFix1 {
                         System.out.println("Harga Paket: " + transaksi.harga());
                         System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                         System.out.println("Kembalian: " + transaksi.kembalian());
-                         System.out.println("---------------------------------------------");
+                        System.out.println("---------------------------------------------");
                     }
                     riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
@@ -284,6 +306,10 @@ public class KursusFix1 {
                                 String pilihanPembayaranLagi = input.nextLine();
 
                                 if ("Y".equalsIgnoreCase(pilihanPembayaranLagi)) {
+                                    System.out.println("===================================");
+                                    System.out.println("|           PEMBAYARAN            |");
+                                    System.out.println("===================================");
+
                                     System.out.print("Masukkan Jumlah Pembayaran Anda: ");
                                     int bayarLagi = input.nextInt();
                                     input.nextLine();  // membersihkan newline character
@@ -322,7 +348,7 @@ public class KursusFix1 {
                                             System.out.println("Harga Paket: " + transaksi.harga());
                                             System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
                                             System.out.println("Kembalian: " + transaksi.kembalian());
-                                             System.out.println("---------------------------------------------");
+                                            System.out.println("---------------------------------------------");
                                         }
                                           riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
@@ -360,7 +386,10 @@ public class KursusFix1 {
                 System.out.println("Harga Paket setelah Potongan Harga Kupon: " + hargaSetelahDiskon);
                 
               
-                System.out.println("");
+                System.out.println("===================================");
+                System.out.println("|           PEMBAYARAN            |");
+                System.out.println("===================================");
+
                 System.out.print("Masukkan Jumlah Pembayaran Anda: ");
                 int bayar = input.nextInt();
                 input.nextLine();  // membersihkan newline character
@@ -410,6 +439,10 @@ public class KursusFix1 {
                                 String pilihanPembayaranLagi = input.nextLine();
 
                                 if ("Y".equalsIgnoreCase(pilihanPembayaranLagi)) {
+                                    System.out.println("===================================");
+                                    System.out.println("|           PEMBAYARAN            |");
+                                    System.out.println("===================================");
+
                                     System.out.print("Masukkan Jumlah Pembayaran Anda: ");
                                     int bayarLagi = input.nextInt();
                                     input.nextLine();  // membersihkan newline character

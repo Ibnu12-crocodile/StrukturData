@@ -23,7 +23,7 @@
 ## Penjelasan Proyek
 <p>
 Sistem kursus yang kami buat diberi nama <b>BOOTCAMP IT</b> yang dimana bootcamp ini berisi pelajaran pelajaran
-yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :</p><br>
+yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami menyediakan banyak pelajaran yaitu :</p>
 <br>
 <ol>
 <li>Hacker<br>
@@ -32,7 +32,7 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 <li>Data Analyst</li>
 </ol>
 <br>
-<p>Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:</p><br>
+<p>Selain itu juga kami membuat jadwal pelajaran kursus yang terpisah dari pelajaran, hal ini dibuat karena kami ingin adanya fleksibilitas waktu, yang dimana para peserta tidak terpaut oleh waktu yang ditentukan dan bebas memilih pelajaran sesuai waktu yang diinginkan, Untuk jadwal yang kami sediakan berdasarkan Opsi, Hari, Sesi, dan Jam. Jadwal yang kami sediakan adalah:</p>
 <br>
 <table border ="1">
   <tr>
@@ -98,7 +98,7 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 </table>
 
 <br>
-  <p>Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan.</p><br>
+  <p>Dan di kursus ini juga kami menyediakan kupon untuk para peserta sehingga peserta yang memiliki kupon dan mendapat potongan harga disini kami menyediakan 4 kupon, kupon akan diberi sesuai dengan Antrian peserta, dan berikut adalah kupon yang kami sediakan.</p>
 <br>
 <table border ="1">
   <tr>
@@ -164,7 +164,7 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
         </li>
         <li>Pembayaran
         <p>Sebelum peserta melakukan pembayaran, bagi peserta yang memiliki kupon maka harga paket yang telah dipilih akan dikurangi dengan potongan harga paket dan jika peserta tidak memiliki kupon maka peserta melanjutkan proses ke transaksi. Peserta akan dimintai untuk memasukan jumlah pembayaran, jika peserta memasukan jumlah pembayaran lebih atau pas dengan harga paket akhir maka seluruh data yang sudah dimasukan meliputi pilihan pelajaran, jadwal, harga paket, harga setelah diskon atau harga paket tanpa kupon, harga pembayaran dan harga kembalian akan langsung ditampilkan melalui riwayat transaksi.<br>
-        Akan tetapi jika pembayaran yang dilakukan oleh peserta kurang dari harga paket akhir maka peserta akan diberitahu jika pembayaran kurang dan peserta akan diberikan pilihan untuk melakukan pembayaran kembali atau tidak, jika peserta memilih untuk melakukan pembayaran kembali maka peserta akan mengulang proses transaksi sedangkan jika peserta memilih tidak maka akan dilanjutkan proses pendataan oleh Atrian peserta berikutnya</p>
+        Akan tetapi jika pembayaran yang dilakukan oleh peserta kurang dari harga paket akhir maka peserta akan diberitahu jika pembayaran kurang dan peserta akan diberikan pilihan untuk melakukan pembayaran kembali atau tidak, jika peserta memilih untuk melakukan pembayaran kembali maka peserta akan mengulang proses transaksi sedangkan jika peserta memilih tidak maka akan dilanjutkan proses pendataan oleh Antrian peserta berikutnya</p>
         </li>
       </ul>
       </p></li>

@@ -262,16 +262,20 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 </ol>
 
 ## Pembagian Tim
-<p><b>Rachel Simanjuntak</b> = Array Record -> Peserta, Jadwal, Pelajaran, Kupon , Paket </p>
-<p><b>Luthfi Febrian</b> = Stack -> Kupon<br>
-                   = Priorty Queue -> Peserta<br>
-<p><b>Ibnu Rasyid Assidiq</b>
-                    = swicth case -> Pilihan menu<br>
-                    = boolean -> Looping menu dan transaksi gagal<br>
-                    = do while -> Looping menu<br>
-                    = Kuponstack -> Pop<br>
-                    = Transaksi<br>
-                    = Linked List => Riwayat Transaksi</p>
+<pre><b>Rachel Simanjuntak</b> = Array Record -> Peserta, Jadwal, Pelajaran, Kupon , Paket 
+                               = Penjelasan awal program</pre>
+<pre><b>Luthfi Febrian</b> = Stack -> Kupon
+                   = Priorty Queue -> Peserta
+                   = Penjelasan running program
+                   = Editing Video </pre>
+<pre><b>Ibnu Rasyid Assidiq</b>
+                    = swicth case -> Pilihan menu
+                    = boolean -> Looping menu dan transaksi gagal
+                    = do while -> Looping menu
+                    = Kuponstack -> Pop
+                    = Transaksi
+                    = Linked List => Riwayat Transaksi
+                    = Penjelasan akhir program</pre>
 
 ## Demo Proyek
 <ul>

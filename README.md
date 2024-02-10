@@ -269,7 +269,7 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
                         = Penjelasan awal program</pre>
 <pre><b>Luthfi Febrian</b> 
                         = Stack -> Kupon
-                        = Priorty Queue -> Peserta
+                        = Priorty Queue -> Antrian Peserta
                         = Penjelasan running program
                         = Editing Video </pre>
 <pre><b>Ibnu Rasyid Assidiq</b>
@@ -282,5 +282,5 @@ yang berkaitan dengan teknologi atau dunia computer, di BOOTCAMP IT ini kami men
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/Ibnu12-crocodile/StrukturData">Github</a></li>
-  <li>Youtube: <a href="">Youtube</a></li>
+  <li>Youtube: <a href="https://youtu.be/81JIfSmmO3E?si=LFgnCqU4QOut2fUo">Youtube</a></li>
 </ul>

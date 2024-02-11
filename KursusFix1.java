@@ -121,7 +121,7 @@ public class KursusFix1 {
 
      case 1:
     // program untuk menampilkan informasi kursus
-         System.out.println("");
+    System.out.println("");
     System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
     System.out.println("");
     System.out.println("========================================================");
@@ -158,8 +158,8 @@ public class KursusFix1 {
     System.out.println("============================================");
     System.out.println("Kembali ke menu utama? (Y/T)");
     System.out.print("=>> ");
-    String GuestUlang1 = input.next().toUpperCase();
-    ulangmenu = GuestUlang1.equals("Y");
+    String ulangmenu99 = input.next().toUpperCase();
+    ulangmenu = ulangmenu99.equals("Y");
     break;
 
 
@@ -192,9 +192,17 @@ public class KursusFix1 {
         List<TransaksiDetail> riwayatTransaksiKupon = new ArrayList<>();
         while (!Antrianpeserta.isEmpty()) { 
             peserta pesertacek = Antrianpeserta.poll();
+            //Menampilkan data peserta antrian
+            
             System.out.println("");
-            System.out.println("Nama: " + pesertacek.nama() + ", Status: " + pesertacek.status() + ", Asal: "
-                                          + pesertacek.asal());
+            System.out.println("-------------------------------------------------------------");
+            System.out.println("                PESERTA ANTRIAN KE-"  + pesertacek.Gelombang()  );
+            System.out.println("-------------------------------------------------------------");
+            System.out.println("Nama   : " + pesertacek.nama());
+            System.out.println("Status : " + pesertacek.status());
+            System.out.println("Asal   : " + pesertacek.asal());
+            System.out.println("-------------------------------------------------------------");
+            
             System.out.println("Pilih kursus(Y/T)");
             System.out.print("=> ");
             String pilih = input.nextLine();
@@ -229,7 +237,7 @@ public class KursusFix1 {
                     System.out.println("- Hari: " + jadwal.hari());
                     System.out.println("- Sesi: " + jadwal.sesi());
                     System.out.println("- Jam: " + jadwal.Jam());
-                    break; 
+                    break; // Keluar dari loop setelah ditemukan jadwal yang sesuai
                 }
             }
              System.out.println("------------------------------");
@@ -240,7 +248,7 @@ public class KursusFix1 {
                     System.out.println("- Kategori: " + paket.kategori());
                     System.out.println("- Masa Paket: " + paket.Masapaket());
                     System.out.println("- Harga: " + paket.harga());
-                    break; 
+                    break; // Keluar dari loop setelah ditemukan paket yang sesuai
                 }
             }
             System.out.println("------------------------------");
@@ -251,7 +259,7 @@ public class KursusFix1 {
             System.out.println("==========================");
               int hargaPaketTanpaKupon = paketHarga(listpaket, kategori1);
                 System.out.println("--------------------------------");
-                System.out.println("Harga Paket setelah Potongan Harga Kupon: " + hargaPaketTanpaKupon);
+                System.out.println("Harga Paket: " + hargaPaketTanpaKupon);
                 
               
                 System.out.println("===================================");
@@ -402,6 +410,7 @@ public class KursusFix1 {
                     System.out.println("Kembalian Anda: " + kembalian);
                     System.out.println("--------------------------------");
 
+        
                     // Menambahkan transaksi ke riwayat dengan kupon
                     TransaksiDetail transaksiDetail = new TransaksiDetail(
                             pesertacek.nama(),
@@ -510,7 +519,7 @@ public class KursusFix1 {
                             String pilihkembali7 = input.next().toUpperCase();
                             ulangmenu = pilihkembali7.equals("Y");
                             break;
-                            
+                        
         default :
             System.out.println("");
                             System.out.println("Pilihan Anda salah");
@@ -534,7 +543,8 @@ public class KursusFix1 {
         }
     
     
-} 
+}
+
 
  
 

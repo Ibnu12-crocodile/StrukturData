@@ -1,5 +1,3 @@
-
-
 package kursusfix1;
 
 // Sruktur Program 
@@ -30,6 +28,7 @@ public class KursusFix1 {
     record TransaksiDetail(String namaPeserta, String namakursus, String opsiJadwal, String kategoriPaket, int harga, int bayar, int kembalian) {}
     
     record pesertabaru (String nama, String status, String Gmail, String asal, int Gelombang) {}
+    
    // Pemnaggilan paket harga 
       private static int paketHarga(paket[] listpaket, String kategori) {
         for (paket paket : listpaket) {
@@ -106,14 +105,15 @@ public class KursusFix1 {
         do{
         
             
-        System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
-        System.out.println("                Silahkan Pilih Menu Pilihan                    ");
+        System.out.println("================    WELCOME TO BOOTCAMP IT     ================");
+        System.out.println("                        Menu Pilihan                           ");
         System.out.println("===============================================================");
         System.out.println(" 1. Informasi Kursus                                           ");
         System.out.println(" 2. Informasi Peserta                                          ");
         System.out.println(" 3. Pendataan dan Pembayaran peserta                                    ");
         System.out.println("===============================================================");
-        
+        System.out.println("");
+        System.out.println("Pilih menu sesuai angka (1-3)");
         System.out.print("=>> ");
                     int MenuAwal = input.nextInt();
                     input.nextLine();
@@ -121,9 +121,6 @@ public class KursusFix1 {
 
      case 1:
     // program untuk menampilkan informasi kursus
-    System.out.println("");
-    System.out.println("==============   WELCOME TO BOOTCAMP IT     ===================");
-    System.out.println("");
     System.out.println("========================================================");
     System.out.println("|                 LIST PELAJARAN KURSUS                |");
     System.out.println("========================================================");
@@ -179,11 +176,6 @@ public class KursusFix1 {
     String pilihkembali2 = input.next().toUpperCase();
     ulangmenu = pilihkembali2.equals("Y");
     break;  
-
-
-
-        
-            
          
         case 3:
                 // program untuk pendataan dan pembayaran
@@ -294,13 +286,13 @@ public class KursusFix1 {
                     System.out.println("|         Riwayat Transaksi Anda           |");
                     System.out.println("============================================");
                     for (TransaksiDetail transaksi : riwayatTransaksiKupon) {
-                        System.out.println("Nama Peserta: " + transaksi.namaPeserta());
-                        System.out.println("Nama Kursus: " + transaksi.namakursus());
-                        System.out.println("Opsi Jadwal: " + transaksi.opsiJadwal());
-                        System.out.println("Kategori Paket: " + transaksi.kategoriPaket());
-                        System.out.println("Harga Paket: " + transaksi.harga());
+                        System.out.println("Nama Peserta     : " + transaksi.namaPeserta());
+                        System.out.println("Nama Kursus      : " + transaksi.namakursus());
+                        System.out.println("Opsi Jadwal      : " + transaksi.opsiJadwal());
+                        System.out.println("Kategori Paket   : " + transaksi.kategoriPaket());
+                        System.out.println("Harga Paket      : " + transaksi.harga());
                         System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
-                        System.out.println("Kembalian: " + transaksi.kembalian());
+                        System.out.println("Kembalian        : " + transaksi.kembalian());
                         System.out.println("---------------------------------------------");
                     }
                     riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
@@ -349,13 +341,13 @@ public class KursusFix1 {
                                         System.out.println("|         Riwayat Transaksi Anda           |");
                                         System.out.println("============================================");
                                         for (TransaksiDetail transaksi : riwayatTransaksiKupon) {
-                                            System.out.println("Nama Peserta: " + transaksi.namaPeserta());
-                                            System.out.println("Nama Kursus: " + transaksi.namakursus());
-                                            System.out.println("Opsi Jadwal: " + transaksi.opsiJadwal());
-                                            System.out.println("Kategori Paket: " + transaksi.kategoriPaket());
-                                            System.out.println("Harga Paket: " + transaksi.harga());
+                                            System.out.println("Nama Peserta     : " + transaksi.namaPeserta());
+                                            System.out.println("Nama Kursus      : " + transaksi.namakursus());
+                                            System.out.println("Opsi Jadwal      : " + transaksi.opsiJadwal());
+                                            System.out.println("Kategori Paket   : " + transaksi.kategoriPaket());
+                                            System.out.println("Harga Paket      : " + transaksi.harga());
                                             System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
-                                            System.out.println("Kembalian: " + transaksi.kembalian());
+                                            System.out.println("Kembalian        : " + transaksi.kembalian());
                                             System.out.println("---------------------------------------------");
                                         }
                                           riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
@@ -428,14 +420,14 @@ public class KursusFix1 {
                     System.out.println("|         Riwayat Transaksi Anda           |");
                     System.out.println("============================================");
                     for (TransaksiDetail transaksi : riwayatTransaksiKupon) {
-                        System.out.println("Nama Peserta: " + transaksi.namaPeserta());
-                        System.out.println("Nama Kursus: " + transaksi.namakursus());
-                        System.out.println("Opsi Jadwal: " + transaksi.opsiJadwal());
-                        System.out.println("Kategori Paket: " + transaksi.kategoriPaket());
-                        System.out.println("Harga Paket: " + transaksi.harga());
+                        System.out.println("Nama Peserta     : " + transaksi.namaPeserta());
+                        System.out.println("Nama Kursus      : " + transaksi.namakursus());
+                        System.out.println("Opsi Jadwal      : " + transaksi.opsiJadwal());
+                        System.out.println("Kategori Paket   : " + transaksi.kategoriPaket());
+                        System.out.println("Harga Paket      : " + transaksi.harga());
                         System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
-                        System.out.println("Kembalian: " + transaksi.kembalian());
-                    System.out.println("---------------------------------------------");
+                        System.out.println("Kembalian        : " + transaksi.kembalian());
+                        System.out.println("---------------------------------------------");
                     }
                       riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                 } else {
@@ -483,14 +475,14 @@ public class KursusFix1 {
                                         System.out.println("|         Riwayat Transaksi Anda           |");
                                         System.out.println("============================================");
                                         for (TransaksiDetail transaksi : riwayatTransaksiKupon) {
-                                            System.out.println("Nama Peserta: " + transaksi.namaPeserta());
-                                            System.out.println("Nama Kursus: " + transaksi.namakursus());
-                                            System.out.println("Opsi Jadwal: " + transaksi.opsiJadwal());
-                                            System.out.println("Kategori Paket: " + transaksi.kategoriPaket());
-                                            System.out.println("Harga Paket: " + transaksi.harga());
+                                            System.out.println("Nama Peserta     : " + transaksi.namaPeserta());
+                                            System.out.println("Nama Kursus      : " + transaksi.namakursus());
+                                            System.out.println("Opsi Jadwal      : " + transaksi.opsiJadwal());
+                                            System.out.println("Kategori Paket   : " + transaksi.kategoriPaket());
+                                            System.out.println("Harga Paket      : " + transaksi.harga());
                                             System.out.println("Jumlah Pembayaran: " + transaksi.bayar());
-                                            System.out.println("Kembalian: " + transaksi.kembalian());
-                                            System.out.println("-----------------------------------------");
+                                            System.out.println("Kembalian        : " + transaksi.kembalian());
+                                            System.out.println("---------------------------------------------");
                                         }
                                           riwayatTransaksiKupon.removeAll(riwayatTransaksiKupon);
                                     } else {
@@ -500,7 +492,7 @@ public class KursusFix1 {
                                         System.out.println("--------------------------------");
                                     }
                                 } else if ("T".equalsIgnoreCase(pilihanPembayaranLagi)) {
-                                    // Jika pengguna tidak ingin mencoba lagi, keluar dari loop
+                                    // Jika peserta tidak ingin mencoba lagi, keluar dari loop
                                     break;
                                 } else {
                                     // Jika input tidak valid, minta input kembali
@@ -532,43 +524,8 @@ public class KursusFix1 {
         }
                             
          
-        
-       
-        
-        
-        
-        
-         
         }while(ulangmenu);
         }
     
     
 }
-
-
- 
-
-
-
-
-
-                
-            
-        
-         
-                        
-                  
-
-      
-       
-
-
-
-              
-    
-
-                
-            
-             
-        
-    
